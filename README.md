@@ -47,89 +47,7 @@ to detect hand gestures and convert them into presentation controls like:
 
 ---
 
-# 📦 Installation
 
-## Step 0 - Ensure Python is installed
-
-For Linux and Mac system, please use `python3` instead of `python` in the commands below </br>
-
-Check if python is installed and available in your system PATH on VSCode Terminal (Terminal → New Terminal):
-```bash
-python -V
-```
-
----
-## Step 1 — Download the code
-
-```bash
-https://github.com/shivam-kotwalia/gesture-control/archive/refs/heads/main.zip
-```
-
----
-
-## Step 2 — Install Dependencies
-
-```bash
-python -m pip install --break-system-packages -r requirements.txt
-```
-
-## Step 3 — Download Hand Landmarker Model
-
-```bash
-python setup_models.py
-```
-
----
-
-# ▶️ Run the App
-
-```bash
-python main.py
-```
-
----
-
-# Close the application
-
-Press Ctrl+C in terminal to close the application
-
----
-
-
-# 💻 macOS Permission Setup
-
-For keyboard control to work on macOS:
-
-Go to:
-
-System Settings → Privacy & Security
-
-Enable permissions for:
-
-* Accessibility
-* Input Monitoring
-
-Allow access for:
-
-* Terminal
-  OR
-* VS Code
-  OR
-* PyCharm
-
-Without these permissions, the app cannot control Google Slides.
-
----
-
-# 🎯 How to Use
-
-1. Open Google Slides in Chrome
-2. Start slideshow mode
-3. Run the Python application
-4. Show gestures in front of webcam
-5. Control slides hands-free
-
----
 
 # 📂 Project Structure
 
@@ -182,7 +100,7 @@ The application:
 
 # 🎓 Learning Outcomes
 
-This project helps students understand:
+This project helps  understand:
 
 * Computer Vision
 * AI-based gesture recognition
@@ -192,17 +110,7 @@ This project helps students understand:
 
 ---
 
-# 📸 Demo Idea
 
-Use this project during:
-
-* AI Workshops
-* Hackathons
-* College Tech Fests
-* Computer Vision Sessions
-* Smart Classroom Demonstrations
-
----
 
 # ⚠️ Notes
 
